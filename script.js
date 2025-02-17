@@ -28,4 +28,4 @@ console.log(maioresDeIdade);
 //EX 07
 const numeros = [20, 11, 30, 40];
 const soma = numeros.reduce((total, num) => total + num, 0);
-console.log(soma)
+console.log(soma);

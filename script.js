@@ -14,3 +14,12 @@ console.log(mensagemBoasVindas(" Vinicius!"))
 const aplicarOperacao = (a, b, operacao) => operacao(a, b);
 console.log(aplicarOperacao(5, 10, (x, y) => x + y));
 console.log(aplicarOperacao(5, 4, (x, y) => x * y));
+
+//EX 05
+const precos = [100, 200, 300, 400];
+const precosComDesconto = precos.map(valores => 10 / 100 * valores);
+console.log(precosComDesconto);
+
+
+
+

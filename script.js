@@ -20,6 +20,7 @@ const precos = [100, 200, 300, 400];
 const precosComDesconto = precos.map(valores => 10 / 100 * valores);
 console.log(precosComDesconto);
 
-
-
-
+//EX 06
+const idades = [12, 20, 15, 18, 43, 32]
+const maioresDeIdade = idades.filter(idade => idade >= 18);
+console.log(maioresDeIdade)

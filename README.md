@@ -1,1 +1,1 @@
-Revisamos o uso de Arrow Function em JS.
+Revisamos o uso de Arrow Function e manipulação de datas com Date e moment.js
